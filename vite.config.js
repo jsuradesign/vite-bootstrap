@@ -8,6 +8,9 @@ export default defineConfig({
             '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
         }
     },
+    css: {
+        devSourcemap: true,
+    },
     build: {
         outDir: '../dist',
         sourcemap: true,
