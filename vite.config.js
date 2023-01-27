@@ -1,4 +1,5 @@
-import path from "path"
+import path, { resolve } from "path"
+import fs from "fs"
 import { defineConfig } from "vite"
 
 export default defineConfig({
@@ -15,6 +16,11 @@ export default defineConfig({
         outDir: '../dist',
         sourcemap: true,
         emptyOutDir: true,
+        rollupOptions: {
+            input: {
+                index: resolve(__dirname, "src/index.html"),
+            }
+        }
     },
     server: {
         port: 8080,
