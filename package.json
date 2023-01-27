@@ -6,8 +6,8 @@
   "author": "Jan Sůra <info@jsuradesign.cz>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn",
-    "build": "yarn build"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
