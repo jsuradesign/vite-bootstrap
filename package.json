@@ -1,0 +1,17 @@
+{
+  "name": "vite-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jsuradesign/vite-bootstrap.git",
+  "author": "Jan Sůra <info@jsuradesign.cz>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "vite": "^4.0.4"
+  }
+}
