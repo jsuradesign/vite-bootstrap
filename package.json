@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/jsuradesign/vite-bootstrap.git",
-  "author": "Jan Sůra <info@jsuradesign.cz>",
+  "author": {
+    "name": "Jan Sůra",
+    "url": "https://sura.dev",
+    "email": "info@jsuradesign.cz"
+  },
+  "bugs": {
+    "url": "https://github.com/jsuradesign/vite-bootstrap/issues"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",
