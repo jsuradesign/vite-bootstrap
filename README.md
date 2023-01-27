@@ -1,5 +1,7 @@
 # Vitejs & Bootstrap starter
 
+> Starter for simple HTML site, build with vite.js bootstrap and sass
+
 ## Requirments
 
 - [node.js](https://nodejs.org/en/) >= v18.12.1
@@ -43,3 +45,9 @@ vite-bootstrap/         # → Root of your project
 ├── postcss.config.js   # → PostCSS configuration
 └── vite.config.js      # → ViteJS configuration
 ```
+
+## How to add a new pages?
+
+1. Added new html file to src directory
+2. Go to vite.config.js file and add new page to `buil -> rollupOptions -> input` section
+   format: `pagename: resolve(__dirname, "src/pagename.html")`
